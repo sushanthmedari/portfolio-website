@@ -1,4 +1,4 @@
-html {
+  html {
     box-sizing: border-box;
     font-size: 100%;
   }
@@ -8,19 +8,22 @@ html {
   }
   
   body {
-    /* background-color: #101010; */
     background-color: rgb(13, 0, 31);
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
-  section, aside, div {
-    padding: 20px;
+  section, aside {
+    padding: 15px 20px;
+    border-radius: 12px;
+  }
+  
+   div {
+    padding: 15px 15px;
     border-radius: 12px;
   }
   
   img {
-  
     height: 500px;
     width: 500px;
   }
@@ -29,18 +32,20 @@ html {
     display: flex;
     list-style:none;
     justify-content: center;
-    gap: 20px;
-    padding: 0;
+    gap: 120px;
+    /* padding: 0; */
     margin: 0;
   }
   
-  a {
-    /* text-decoration: none; */
-    color: #f9faf8;   
-  
+  li {
+    background-color: #1f2937;
+    padding: 10px 20px;
+    border-radius: 15px;
   }
   
-  
+  a {
+    color: #f9faf8;   
+  }
   
   .flex-container{
     display: flex;
@@ -48,14 +53,32 @@ html {
     margin: 0 40px;
     justify-content: space-evenly;
     align-items: center;
-  
   }
+
   h2 {
     display: flex;
     justify-content: center;
   }
   
-  h1 {
+  #container {
     display: flex;
     justify-content: center;
   }
+  
+  h1 {
+    background-color: #1f2937;
+    padding: 10px 20px;
+    border-radius: 15px;
+  }
+  
+  #second-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sidebar, .main-content {
+    background-color: #1f2937;
+    margin: 15px 0px;
+    border-radius: 15px;
+  }
+  
